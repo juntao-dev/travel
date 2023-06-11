@@ -1,5 +1,17 @@
-theme= 'archie'
+title = "JZ's Travel Blog"
+theme="archie"
 copyright = "© JZ"
+
+paginate=3 # articles per page
+
+
+[params]
+	mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Journey around Australia and Beyond"
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
 
 [[menu.main]]
 name = "Home"
